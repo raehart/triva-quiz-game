@@ -1,0 +1,27 @@
+@import './styles/_colors.scss';
+
+.quiz-app {
+  button {
+    cursor: pointer;
+  }
+  //changing Blaze's css vars. Defaults are boring
+  // --color-dark: #39627f;
+  // sass varibles not working - need to debug 
+  // --color-dark: $blue-primary;
+
+  .c-card__item--divider[role=separator] {
+    --card-item-color: #e4de66;
+    --card-item-background-color: #39627f;
+  }
+
+  .c-card__item {
+    --card-item-background-color: #4b788f;
+    --color-text: #e4de66;
+  }
+
+  .c-card__footer--block {
+    background-color: #39627f;
+    padding: 0.5rem;
+  }
+}
+
